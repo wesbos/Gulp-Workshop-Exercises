@@ -1,0 +1,12 @@
+html {
+  font-size: 10px;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 2rem;
+  color:grey;
+}

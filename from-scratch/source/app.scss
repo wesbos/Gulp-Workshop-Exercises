@@ -1,0 +1,27 @@
+$red : #d12028;
+
+
+.button {
+  transition: all 0.4s;
+  background:$red;
+  color:#fff;
+  padding:20px;
+  &:hover {
+    background:lighten($red, 20%);
+    transform:scale(1.2);
+  }
+}
+
+[class^=grid-] {
+    float:left;
+    margin:0;
+    padding:0 2%; // gutters
+}
+
+// grid system
+
+@for $i from 1 through 24 {
+    .grid-#{$i} {
+        width: (100 / $i) * 1%;
+    }
+}

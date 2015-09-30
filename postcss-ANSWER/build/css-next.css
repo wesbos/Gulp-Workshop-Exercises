@@ -1,0 +1,46 @@
+/* CSS Variables */
+
+.post-article h1,
+.post-article h2,
+.post-article h3,
+.post-article h4,
+.post-article h5,
+.post-article h6 {
+    color: rgb(140, 53, 43);
+}
+@media (max-width: 640px) {
+    .post-article h1,
+.post-article h2,
+.post-article h3,
+.post-article h4,
+.post-article h5,
+.post-article h6 {
+        margin-top: 0;
+    }
+}
+
+
+.wrapper {
+  -webkit-transform:rotate(20deg);
+      -ms-transform:rotate(20deg);
+          transform:rotate(20deg);
+}
+
+
+
+/* Quantity Queries */
+
+
+ul.boxes li:at-least(5) {
+  border-bottom: 10px solid #C0392B;
+  border-bottom: 10px solid rgba(192, 57, 43, 0.8);
+}
+
+
+.dog:at-most(3) {
+  border-bottom:10px solid #BADA55;
+}
+
+.cat:between(3,10) {
+  background:transparent;
+}

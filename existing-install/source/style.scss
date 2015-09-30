@@ -1,0 +1,24 @@
+$red : #D12026;
+$green : #9DF396;
+
+.wrapper {
+  background:gray;
+  color:$red;
+  transition:all 1s;
+  padding:30px;
+  display: flex;
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+.innerWrapper {
+  border:1px solid $green;
+  a {
+    border-bottom: 1px solid lighten($red, 50%);
+    display: none;
+  }
+  p {
+    background:yellow;
+  }
+}

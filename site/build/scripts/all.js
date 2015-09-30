@@ -1,0 +1,1 @@
+var help;help=function(a){var b,c,d;return alert("help "+a),c="bos",b="wes",d="irv"},checkout.buyItems=function(a,b){var c;return c=1e3*b};

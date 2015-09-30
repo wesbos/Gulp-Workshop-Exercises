@@ -1,0 +1,49 @@
+$red : #D12026;
+
+
+html {
+  font-size: 10px;
+}
+
+.wrapper {
+  background:gray;
+  color:$red;
+  transition:all 1s;
+  padding:30px;
+  display: flex;
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+.innerWrapper {
+  border:1px solid red;
+  a {
+    background:red;
+    display: none;
+  }
+  p {
+    background:yellow;
+  }
+}
+
+.item {
+  border:1px solid blue;
+  padding:20px;
+  width:25%;
+  float: left;
+  transform:rotate(20deg);
+  p {
+    font-size:20px;
+    transition:all 1s;
+    transform: rotate(2deg);
+    background: linear-gradient(red, blue);
+    span {
+      background:yellow;
+    }
+  }
+  &.item5 {
+    background:black;
+    color:white;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "post-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-core": "^6.0.1",
+    "cssgrace": "^2.0.2",
+    "cssnext": "^1.8.4",
+    "gulp": "*",
+    "gulp-cssnext": "^1.0.1",
+    "gulp-postcss": "^6.0.0",
+    "postcss": "^5.0.8",
+    "postcss-quantity-queries": "^0.4.0"
+  }
+}

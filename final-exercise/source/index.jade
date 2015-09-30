@@ -1,0 +1,105 @@
+extends layout
+
+block content
+  header.top
+    h1
+      a(href="http://CommandLinePowerUser.com") Command Line Power User
+    video.term(src="images/command-line-video.mp4" loop autoplay mute poster="/images/poster.png")
+
+  section.deets
+    p.desc A video series for web developers on learning a modern command line workflow with ZSH, Z and related tools.
+
+    form.signup(method="POST" action="http://wesbos.com/mc/")
+      label(for="email")
+      input(type="email" name="email" placeholder="Email Address")
+      input(type="submit" value="Send me the videos!")
+
+    p.naw 100% Free — Receive all 11 Videos instantly — No Spam!
+
+  section.social
+    a(href="https://twitter.com/share" class="twitter-share-button" data-url="http://CommandLinePowerUser.com" data-text="Command Line Power User: A free command line workflow series by @wesbos → " data-related="wesbos") Tweet
+    a(href="https://twitter.com/wesbos" class="twitter-follow-button" data-show-count="true") Follow @wesbos
+    div(class="fb-like" data-href="http://CommandLinePowerUser.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false") Like
+    g:plusone()
+
+  section.videos
+    .about
+      .half
+        h3 What is this?
+        p 11 <em>"I had no idea you could do that"</em> videos for web developers looking to improve their command line skills.
+        p They cover a workflow using some of the best modern tools that relate to using command line tools such as git, npm, gulp and so on.
+      .half
+        h3 Who made these?
+        img.handsome(src="https://pbs.twimg.com/profile_images/483631308589920256/01FPpVF0.jpeg")
+        p <a href="http://wesbos.com" target="_blank">Wes Bos</a> - a full stack developer and teacher passionate about workflow and tooling. Wes recently released <a href="https://SublimeTextBook.com">Sublime Text Power User</a> - a book and video series on mastering Sublime Text.
+
+    h3 The Videos
+    ul.video-list
+      li.video(data-timecode="1:00")
+        img(src="images/covers/1.jpg" alt="Introduction to Command Line Power User")
+        h3.video-title Introduction to Command Line Power User
+        p.video-desc What are these videos all about?
+      li.video(data-timecode="2:10")
+        img(src="images/covers/2.jpg" alt="Command Line Basics" data-timecode="7:10")
+        h3.video-title Command Line Basics
+        p.video-desc Never used the command line before? Here is a quick rundown of the basic commands.
+      li.video(data-timecode="2:10")
+        img(src="images/covers/3.jpg" alt="Installing iTerm or Cygwin" data-timecode="5:06")
+        h3.video-title Installing iTerm or Cygwin
+        p.video-desc Why mac users should ditch terminal. What to use if you are on windows.
+      li.video(data-timecode="4:38")
+        img(src="images/covers/4.jpg" alt="Installing ZSH &amp; Oh-My-ZSH")
+        h3.video-title Installing ZSH &amp; Oh-My-ZSH
+        p.video-desc What is ZSH? What about Oh-My-ZSH? Let's get them installed!
+      li.video(data-timecode="7:24")
+        img(src="images/covers/5.jpg" alt="Custom Terminal Colours")
+        h3.video-title Custom Terminal Colours
+        p.video-desc Customize your terminal with custom colours.
+      li.video(data-timecode="12:48")
+        img(src="images/covers/6.jpg" alt="Custom ZSH Themes &amp; Prompts")
+        h3.video-title Custom ZSH Themes &amp; Prompts
+        p.video-desc Pimp your terminal with themes. Create a custom prompt that integrates with Git, Ruby and Node.
+      li.video(data-timecode="8:15")
+        img(src="images/covers/7.jpg" alt="Discovering ZSH Features")
+        h3.video-title Discovering ZSH Features
+        p.video-desc What makes ZSH so good anyways? What are the features you can best take advantage of?
+      li.video(data-timecode="2:30")
+        img(src="images/covers/8.jpg" alt="Advanced History with ZSH")
+        h3.video-title Advanced History with ZSH
+        p.video-desc Stop typing the same command over and over again!
+      li.video(data-timecode="9:04")
+        img(src="images/covers/9.jpg" alt="Getting the most out of ZSH with Plugins")
+        h3.video-title Getting the most out of ZSH with Plugins
+        p.video-desc Have a specific workflow need? Git commands, NPM methods, Cloudapp integration...
+      li.video(data-timecode="10:52")
+        img(src="images/covers/10.jpg" alt="Using z to jump to \"frecent\" folders")
+        h3.video-title Using z to jump to "frecent" folders
+        p.video-desc Are you using z? Greatly speed up your file system traversal and say goodbye to finder.
+      li.video(data-timecode="5:03")
+        img(src="images/covers/11.jpg" alt="Deletion of files + folders with trash")
+        h3.video-title Deletion of files + folders with <code>trash</code>
+        p.video-desc Still using <code>rm</code>? Stop! The <code>trash</code> command is the better and safer alternative.
+
+  section.deets.secondary
+    p.desc Ready to slam dunk the command line?
+
+    form.signup(method="POST" action="http://wesbos.com/mc/")
+      label(for="email")
+      input(type="email" name="email" placeholder="Email Address")
+      input(type="submit" value="Send me the videos!")
+
+    p.naw 100% Free — Receive all 11 Videos instantly — No Spam!
+
+  section.social
+    a(href="https://twitter.com/share" class="twitter-share-button" data-url="http://CommandLinePowerUser.com" data-text="Command Line Power User: A free command line workflow series by @wesbos → " data-related="wesbos") Tweet
+    a(href="https://twitter.com/wesbos" class="twitter-follow-button" data-show-count="true") Follow @wesbos
+    div(class="fb-like" data-href="http://CommandLinePowerUser.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false") Like
+    g:plusone()
+
+    .its-good
+      <blockquote data-cards="hidden" class="twitter-tweet" data-partner="tweetdeck"><p>Really recommend this! Good stuff™ from <a href="https://twitter.com/wesbos">@wesbos</a> <a href="http://t.co/AK043rLP7H">http://t.co/AK043rLP7H</a></p>&mdash; Tim Smith (@ttimsmith) <a href="https://twitter.com/ttimsmith/status/584040950172901377">April 3, 2015</a></blockquote>
+      <blockquote class="twitter-tweet" data-cards="hidden" data-partner="tweetdeck"><p>Man, more great tips from <a href="https://twitter.com/wesbos">@wesbos</a> on improving your development workflow →  <a href="http://t.co/gsMOARvn2f">http://t.co/gsMOARvn2f</a></p>&mdash; sioked (@sioked) <a href="https://twitter.com/sioked/status/583681260163325953">April 2, 2015</a></blockquote>
+
+
+
+
