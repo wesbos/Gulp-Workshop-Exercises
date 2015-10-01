@@ -1,7 +1,7 @@
 {
   "name": "gulp-exercises",
   "version": "1.0.0",
-  "description": "",
+  "description": "An NPM script to install all the workshop dependencies",
   "main": "index.js",
   "scripts": {
     "deps": "echo '\\033[0;32m Installing All Exercise dependencies \n\n This will take a while \n\n go grab a coffee\\033[0m' && find . -maxdepth 1 -type d -exec sh -c '(cd {} && echo \" \n***\n \\033[0;32mNow installing\\033[0m {}\n***\" && npm install --silent)' ';' && echo '\n\n\nSuccess!\n\n\n'"

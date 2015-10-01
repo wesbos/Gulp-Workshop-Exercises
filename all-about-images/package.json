@@ -1,7 +1,7 @@
 {
   "name": "all-about-images",
   "version": "1.0.0",
-  "description": "",
+  "description": "An Example from Wes Bos' Gulp Workshop",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,8 +13,6 @@
     "gulp": "*",
     "gulp-imagemin": "^2.3.0",
     "gulp-load-plugins": "^1.0.0-rc.1",
-    "imagemin-advpng": "^3.0.2",
-    "imagemin-jpegoptim": "^4.0.0",
     "imagemin-mozjpeg": "^5.1.0"
   }
 }
