@@ -1,8 +1,10 @@
 # Gulp Workshop Exercises
 
-These are a bunch of exercises for the Gulp.js workshop. 
+These are the exercises for my Gulp.js workshop. 
 
-If you are coming to a workshop, before you come:
+If you are coming to a workshop, before you come, please complete the following. You can read below or watch [this handy video](http://wes.io/dQAg).
+
+[![](http://wes.io/dQAg/content)](https://www.youtube.com/watch?v=PZpUxgA-cb0)
 
 ## Have a Terminal / Command Line Ready
 
