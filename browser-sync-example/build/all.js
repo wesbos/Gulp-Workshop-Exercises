@@ -1,2 +1,0 @@
-(function(){var n,r;n=function(n){var r,t,e;return alert("help "+n),t="bos",r="wes",e="ya"},(r=function(n){var r;return r=n.toUpperCase(),console.log(r)})("wes")}).call(this),function(){var n;({checkout:n=function(n,r){var t;return t=1e3*r}})}.call(this);
-//# sourceMappingURL=all.js.map
