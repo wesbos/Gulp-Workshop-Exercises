@@ -3,7 +3,7 @@ var p = require('gulp-load-plugins')();
 
 gulp.task('scripts', function() {
     // create a filter
-    var es6filter = p.filter(['scripts.js']);
+    var es6filter = p.filter(['scripts.js'], { restore : true });
 
     gulp.src(['scripts/plugins/jquery.js', 'scripts/plugins/fitvid.js', 'scripts/plugins/swipe.js','scripts/scripts.js'])
       // start sourcemaps
@@ -11,9 +11,11 @@ gulp.task('scripts', function() {
       // filter only for our ES6 file(s)
       .pipe(es6filter)
       // run babel on filtered subset
-      .pipe(p.babel())
+      .pipe(p.babel({
+        presets: ['es2015']
+      }))
       // restore
-      .pipe(es6filter.restore())
+      .pipe(es6filter.restore)
       // continue on with life
       .pipe(p.concat('all.js'))
       .pipe(p.stripDebug())

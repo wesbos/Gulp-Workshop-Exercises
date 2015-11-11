@@ -11,8 +11,8 @@
   "devDependencies": {
     "del": "^2.0.2",
     "gulp": "*",
-    "gulp-imagemin": "^2.3.0",
-    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-load-plugins": "^1.1.0",
     "imagemin-mozjpeg": "^5.1.0"
   }
 }
